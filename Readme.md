@@ -6,7 +6,7 @@
 - Maps the /datadir
 - Don't keep the /datadir content
 - mysqld.cnf stored to set the software requisites.
-- Maps the 5432 port to localho
+- Maps the 5432 port to localhost
 ## Requirements
 
 - Docker
