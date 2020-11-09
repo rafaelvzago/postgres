@@ -1,8 +1,14 @@
-# Use postgres/example user/password credentials
-version: '3.1'
+version: '3.8'
 services:
-  postgres:
-    image: postgres
+  postgres96:
+    container_name: pgsql96
+    image: postgres:9.6
+    deploy:
+      resources:
+        limits:
+          memory: 2048M
+        reservations:
+          memory: 2048M
     restart: always
     environment:
       POSTGRES_PASSWORD: mestre

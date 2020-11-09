@@ -19,4 +19,4 @@
 	docker-compose up -d
 ```
 
-### With great power comes great responsibility.%
+### With great power comes great responsibility.
